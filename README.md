@@ -21,3 +21,5 @@ and also add them to played games with a rating.
 ### Entity Relationship Diagram
 My initial ERD included Users, Reviews and Games tables. A user would have an ID and this along with the Game ID would be
 incorperated as foreign keys in a game review so that it would belong to a user and a certain game.
+
+![Initial ERD](https://github.com/oskar951/Game-Review-Library/blob/master/GameERD.jpg)
