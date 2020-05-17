@@ -4,8 +4,8 @@ The fundemental project for QA consulting.
 
 ## Index
 
-*[Brief](#Brief)
-*[Architecture](#Architecture)
+1. [Brief](#Brief)
+2. [Architecture](#Architecture)
 
 
 
