@@ -26,4 +26,4 @@ incorperated as foreign keys in a game review so that it would belong to a user 
 
 My delivered ERD has only the Games and Reviews tables, this time with more rows that have all my necessry fields. Because I am not including a users table, I have insead decided to add first and last names to the reviews. The relationship between these tables is one to one and zero to many, the Games table will share the ID as a foregin key in the reviews table. Here is my final ERD:
 
-![Final ERD](
+![Final ERD](https://github.com/oskar951/Game-Review-Library/blob/master/FinalGameERD.jpg)
