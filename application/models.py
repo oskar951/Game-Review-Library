@@ -11,7 +11,7 @@ class Reviews(db.Model):
     title = db.Column(db.String(100), nullable=False, unique=True)
     review = db.Column(db.String(500), nullable=False, unique=True)
     date_posted = db.Column(db.DateTime, nullable=False, default=datetime.utcnow)
-    game__id = db.Column(db.Integer, db.ForeignKey('games.id'), nullable=False)
+    game_id = db.Column(db.Integer, db.ForeignKey('games.id'), nullable=False)
 
     def __repr__(self):
         return ''.join([
@@ -27,7 +27,8 @@ class Games(db.Model):
     game_title = db.Column(db.String(100), nullable=False, unique=True)
     description = db.Column(db.String(100), nullable=False)
     category = db.Column(db.String(100), nullable=False)
-    age_rating = db.Column(db.Integer, nullable=False, unique=True)
+    age_rating = db.Column(db.Integer, nullable=False)
+    
 
 
     def __repr__(self):

@@ -1,7 +1,18 @@
 {% extends "layout.html" %}
-{% block body_content %}
-		{{ title }}
-	
 
-                This is my website
+
+
+
+{% block body_content %}
+<h1> {{ title }} </h1>
+        
+{% for review in reviews %}
+<div class="reviewposts">
+    <h3>{{ review.title }}</h3>
+    <span>by <i>{{ review.first_name }} {{ review.last_name }}</i></span> <br>
+    <span>on the <i>{{ review.date_posted }}</i></span>
+    <p> -- {{ review.review }}</p>
+</div>
+{% endfor %}
+
 {% endblock %}
