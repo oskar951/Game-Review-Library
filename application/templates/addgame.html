@@ -1,0 +1,57 @@
+{% extends "layout.html" %}
+{% block body_content %}
+    <div class='form'>
+        <form method='POST' action=''>
+            {{ form.hidden_tag() }}
+            {{ form.game_title.label }}
+            {{ form.game_title }}
+
+            {% if form.game_title.errors %}
+            <div class="error">
+                {% for error in form.game_title.errors %}
+                    <span>{{ error }}</span>
+                {% endfor %}
+            </div>
+        {% endif %}
+
+            <br>
+            {{ form.description.label }}
+            {{ form.description }}
+
+            {% if form.description.errors %}
+            <div class="error">
+                {% for error in form.description.errors %}
+                    <span>{{ error }}</span>
+                {% endfor %}
+            </div>
+        {% endif %}
+
+            <br>
+            {{ form.category.label }}
+            {{ form.category }}
+
+            {% if form.category.errors %}
+            <div class="error">
+                {% for error in form.category.errors %}
+                    <span>{{ error }}</span>
+                {% endfor %}
+            </div>
+        {% endif %}
+
+            <br>
+            {{ form.age_rating.label }}
+            {{ form.age_rating }}
+
+            {% if form.age_rating.errors %}
+            <div class="error">
+                {% for error in form.age_rating.errors %}
+                    <span>{{ error, "make sure it is an integer" }}</span>
+                {% endfor %}
+            </div>
+        {% endif %}
+
+            <br>
+            {{ form.submit }}
+        </form>
+    </div>
+{% endblock %}
