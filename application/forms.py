@@ -54,6 +54,19 @@ class ReviewForm(FlaskForm):
             raise ValidationError('Rating must be between 1 - 10')
 
 
+    def game_id_null(self, game_title):
+        
+        if game_title.data != game:
+            raise ValidationError('Game doesnt exist')
+
+
+
+
+
+
+
+
+
 
 
 class GameForm(FlaskForm):
@@ -98,4 +111,44 @@ class GameForm(FlaskForm):
 
         if game:
             raise ValidationError('Game already exists')
+
+
+
+class UpdateGameForm(FlaskForm):
+    game_title = StringField('Game Title',
+        validators = [
+            DataRequired(),
+            Length(min=2, max=100)
+        ]
+    )
+
+    description = StringField('Description',
+        validators = [
+            DataRequired(),
+            Length(min=2, max=100)
+        ]
+    )
+
+
+    category = StringField('Category',
+        validators = [
+            DataRequired(),
+            Length(min=2, max=100)
+        ]
+    )
+
+    age_rating = IntegerField('Age Rating',
+        validators = [
+            DataRequired(),
+           
+        ]
+    )
+
+    submit = SubmitField('Update')
+
+    def validate_age_rating(self,age_rating):
+        if age_rating.data > 18:
+            raise ValidationError('18 years is the max age rating')
+
+
 

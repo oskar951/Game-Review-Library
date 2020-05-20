@@ -4,6 +4,7 @@
         <form method='POST' action=''>
             {{ form.hidden_tag() }}
             {{ form.game_title.label }}
+            <br>
             {{ form.game_title }}
 
             {% if form.game_title.errors %}
@@ -15,7 +16,9 @@
         {% endif %}
 
             <br>
+            <br>
             {{ form.description.label }}
+            <br>
             {{ form.description }}
 
             {% if form.description.errors %}
@@ -27,7 +30,9 @@
         {% endif %}
 
             <br>
+            <br>
             {{ form.category.label }}
+            <br>
             {{ form.category }}
 
             {% if form.category.errors %}
@@ -39,7 +44,9 @@
         {% endif %}
 
             <br>
+            <br>
             {{ form.age_rating.label }}
+            <br>
             {{ form.age_rating }}
 
             {% if form.age_rating.errors %}
