@@ -6,7 +6,7 @@ The fundemental project for QA consulting.
 
 1. [Brief](#Brief)
 2. [Architecture](#Architecture)
-
+3. [Risk Assessment](#Risk Assessment)
 5. [Testing](#Testing)
 
 
@@ -29,6 +29,9 @@ incorperated as foreign keys in a game review so that it would belong to a user 
 My delivered ERD has only the Games and Reviews tables, this time with more rows that have all the necessary fields. Because I am not including a users table, I have insead decided to add first and last names to the reviews. The relationship between these tables is one to one and zero to many, the Games table will share the ID as a foregin key in the reviews table. Here is my final ERD:
 
 ![Final ERD](https://github.com/oskar951/Game-Review-Library/blob/master/FinalGameERD.jpg)
+
+## Risk Assessment
+
 
 ## Testing
 
