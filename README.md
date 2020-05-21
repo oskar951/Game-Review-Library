@@ -14,7 +14,6 @@ The fundemental project for QA consulting.
 
 
 ## Brief
-[Back to top](#Index)
 
 To create a CRUD application with utilisation of supporting tools, methodologies and technologies that encapsulate all core modules
 covered during training.
@@ -23,7 +22,7 @@ My decision was to create a game review library where a user may create a collec
 and also add them to played games with a rating.
 
 ## Architecture
-[Back to top](#Index)
+
 
 ### Entity Relationship Diagram
 My initial ERD included Users, Reviews and Games tables. A user would have an ID and this along with the Game ID would be
@@ -35,16 +34,17 @@ My delivered ERD has only the Games and Reviews tables, this time with more rows
 
 ![Final ERD](https://github.com/oskar951/Game-Review-Library/blob/master/Images/FinalGameERD.jpg)
 
-## Risk Assessment
 [Back to top](#Index)
 
+## Risk Assessment
+
+
 ## Testing
-[Back to top](#Index)
+
 
 In my inital testing to see the response code for my pages(home, about, addgames, games, review) to see if those pages are shown to the user. All the tests passed with a total coverage of 55%
 
 ## Front End Design/Result
-[Back to top](#Index)
 
 For the front end of the website I created 2 wire frames of the expected and minimum desired outcome. The frames are simple and white, including the page links and review positions as well as the form layout.
 
@@ -57,10 +57,10 @@ For the front end of the website I created 2 wire frames of the expected and min
 ![Home page](https://github.com/oskar951/Game-Review-Library/blob/master/Images/homepage.jpg)
 ![Review page](https://github.com/oskar951/Game-Review-Library/blob/master/Images/reviewpage.jpg)
 
-
-## Workflow and Tools Used
 [Back to top](#Index)
 
+
+## Workflow and Tools Used
 
 SQL - Database service
 Python - Logic
