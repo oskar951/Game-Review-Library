@@ -6,7 +6,7 @@ The fundemental project for QA consulting.
 
 1. [Brief](#Brief)
 2. [Architecture](#Architecture)
-3. [Risk Assessment](#Risk Assessment)
+3. [Risk Assessment](#Risk_Assessment)
 5. [Testing](#Testing)
 
 
@@ -30,7 +30,7 @@ My delivered ERD has only the Games and Reviews tables, this time with more rows
 
 ![Final ERD](https://github.com/oskar951/Game-Review-Library/blob/master/FinalGameERD.jpg)
 
-## Risk Assessment
+## Risk_Assessment
 
 
 ## Testing
