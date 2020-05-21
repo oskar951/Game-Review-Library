@@ -6,7 +6,7 @@ The fundemental project for QA consulting.
 
 1. [Brief](#Brief)
 2. [Architecture](#Architecture)
-3. [Risk Assessment](#RiskAssessment)
+3. [Risk Assessment](#Risk_Assessment)
 5. [Testing](#Testing)
 
 
