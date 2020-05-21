@@ -53,6 +53,8 @@ For the front end of the website I created 2 wire frames of the expected and min
 
 ### Front End Result
 
+The final coutcome of the front end looks much nicer and actually has more functionality than expected. The greyed out review is indicating a mouseover event to show that the review actually is a link and when hovered over can be clicked. This then goes to a new page for that specific review where you can delete or update it, the layout here is the same as the home page belowe but it shows the review ID at the top of the page and has update and delete buttons.
+
 ![Home page](https://github.com/oskar951/Game-Review-Library/blob/master/Images/homepage.jpg)
 ![Review page](https://github.com/oskar951/Game-Review-Library/blob/master/Images/reviewpage.jpg)
 
