@@ -49,7 +49,7 @@ For the front end of the website I created 2 wire frames of the expected and min
 ### Front End Result
 
 ![Home page](https://github.com/oskar951/Game-Review-Library/blob/master/Images/homepage.jpg)
-![Review page](https://github.com/oskar951/Game-Review-Library/blob/master/Images/review page.jpg)
+![Review page](https://github.com/oskar951/Game-Review-Library/blob/master/Images/review-page.jpg)
 
 
 ## Workflow and Tools Used
