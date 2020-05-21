@@ -11,7 +11,7 @@ class Reviews(db.Model):
     title = db.Column(db.String(100), nullable=False, unique=True)
     review = db.Column(db.String(500), nullable=False, unique=True)
     date_posted = db.Column(db.DateTime, nullable=False, default=datetime.utcnow)
-    game_id = db.Column(db.Integer, db.ForeignKey('games.id'), nullable=False)
+    game_id = db.Column(db.Integer, db.ForeignKey('games.id'), nullable=True)
 
     def __repr__(self):
         return ''.join([
