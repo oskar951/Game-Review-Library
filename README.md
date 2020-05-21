@@ -19,7 +19,7 @@ To create a CRUD application with utilisation of supporting tools, methodologies
 covered during training.
 
 My decision was to create a game review library where a user may create a collection of games, add or delete games,
-and also add them to played games with a rating.
+and also add them to reviews with a rating.
 
 ## Architecture
 
