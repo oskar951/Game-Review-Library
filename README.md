@@ -39,3 +39,13 @@ My delivered ERD has only the Games and Reviews tables, this time with more rows
 In my inital test to see the response code for my pages(home, about, addgames, games, review) to see if those pages are shown to the user. All the tests passed with a total coverage of 55%
 
 ## Workflow and Tools Used
+
+
+SQL - Database service
+Python - Logic
+Jenkins - Continues Integration and Deployment service
+PyTest - Testing
+Git - Versions Control System
+Trello - Project Tracking
+GCP - Virtual Environment
+
