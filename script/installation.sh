@@ -12,10 +12,6 @@ python3 -m venv game-venv
 
 source /var/lib/jenkins/workspace/game_freestyle/game-venv/bin/activate
 
-export SECRET_KEY=sdfjsfjsngjdfrj
-
-export DATABASE_URI=mysql+pymysql://root:1234@34.89.55.147/gamedatabase
-
 pip3 install -r requirements.txt
 
 python3 /var/lib/jenkins/workspace/game_freestyle/app.py
