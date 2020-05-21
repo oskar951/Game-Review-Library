@@ -14,4 +14,4 @@ source /var/lib/jenkins/workspace/game_freestyle/game-venv/bin/activate
 
 pip3 install -r requirements.txt
 
-python3 /var/lib/jenkins/workspace/game_freestyle/app.py
+gunicorn --workers=4 --bind=0.0.0.0:5000 /var/lib/jenkins/workspace/game_freestyle/application:app
