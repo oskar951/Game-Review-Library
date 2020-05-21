@@ -8,7 +8,7 @@ The fundemental project for QA consulting.
 2. [Architecture](#Architecture)
 3. [Risk Assessment](#Risk-Assessment)
 5. [Testing](#Testing)
-6. [Tools and Workflow](#Workflow-and-Tools-Used)
+6. [Workflow and Tools](#Workflow-and-Tools-Used)
 
 
 
