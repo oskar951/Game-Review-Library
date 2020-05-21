@@ -8,7 +8,8 @@ The fundemental project for QA consulting.
 2. [Architecture](#Architecture)
 3. [Risk Assessment](#Risk-Assessment)
 5. [Testing](#Testing)
-6. [Workflow and Tools](#Workflow-and-Tools-Used)
+6. [Front End Design/Result](#Front-End-Design/Result)
+7. [Workflow and Tools](#Workflow-and-Tools-Used)
 
 
 
@@ -36,7 +37,14 @@ My delivered ERD has only the Games and Reviews tables, this time with more rows
 
 ## Testing
 
-In my inital test to see the response code for my pages(home, about, addgames, games, review) to see if those pages are shown to the user. All the tests passed with a total coverage of 55%
+In my inital testing to see the response code for my pages(home, about, addgames, games, review) to see if those pages are shown to the user. All the tests passed with a total coverage of 55%
+
+## Front End Design/Result
+
+For the front end of the website I created 2 wire frames of the expected and minimum desired outcome. The frames are simple and white, including the page links and review positions as well as the form layout.
+
+![Home page wireframe](https://github.com/oskar951/Game-Review-Library/blob/master/Images/HomePageWireframe.jpg)
+![Add review wireframe](https://github.com/oskar951/Game-Review-Library/blob/master/Images/AddReviewWireframe.jpg)
 
 ## Workflow and Tools Used
 
