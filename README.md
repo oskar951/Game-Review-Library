@@ -8,6 +8,7 @@ The fundemental project for QA consulting.
 2. [Architecture](#Architecture)
 3. [Risk Assessment](#Risk-Assessment)
 5. [Testing](#Testing)
+6. [Tools and Workflow](#Workflow-and-Tools-Used)
 
 
 
@@ -35,4 +36,6 @@ My delivered ERD has only the Games and Reviews tables, this time with more rows
 
 ## Testing
 
-In my inital test to see the response code for my pages(home, about, addgames, games, review) all the tests passed with a total coverage of 55%
+In my inital test to see the response code for my pages(home, about, addgames, games, review) to see if those pages are shown to the user. All the tests passed with a total coverage of 55%
+
+## Workflow and Tools Used
