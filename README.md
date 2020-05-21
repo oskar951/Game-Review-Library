@@ -52,7 +52,6 @@ For the front end of the website I created 2 wire frames of the expected and min
 ![Add review wireframe](https://github.com/oskar951/Game-Review-Library/blob/master/Images/AddReviewWireframe.jpg)
 
 ### Front End Result
-[Back to top](#Index)
 
 ![Home page](https://github.com/oskar951/Game-Review-Library/blob/master/Images/homepage.jpg)
 ![Review page](https://github.com/oskar951/Game-Review-Library/blob/master/Images/reviewpage.jpg)
