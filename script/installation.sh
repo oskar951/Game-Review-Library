@@ -12,8 +12,10 @@ python3 -m venv game-venv
 
 source /var/lib/jenkins/workspace/game_freestyle/game-venv/bin/activate
 
-pip3 install -r requirements.txt
+pip3 install -r /var/lib/jenkins/workspace/game_freestyle/requirements.txt
+
+cd  /var/lib/jenkins/workspace/game_freestyle
 
 source ~/.bashrc
 
-python3 /var/lib/jenkins/workspace/game_freestyle/app.py
+gunicorn --workers=4 --bind=0.0.0.0:5000 application:app
