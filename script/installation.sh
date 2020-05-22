@@ -14,6 +14,10 @@ source game-venv/bin/activate
 
 pip3 install -r /var/lib/jenkins/workspace/game_freestyle/requirements.txt
 
+pip3 install gunicorn
+
+pip3 install pytest pytest-cov flask-testing Werkzeug==0.16.1
+
 pytest --cov ./application --cov-report html
 
 source ~/.bashrc
