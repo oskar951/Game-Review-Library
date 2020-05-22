@@ -16,4 +16,4 @@ pip3 install -r requirements.txt
 
 source ~/.bashrc
 
-python3 /var/lib/jenkins/workspace/game_freestyle/app.py
+python3 /var/lib/jenkins/workspace/game_freestyle/app:app
