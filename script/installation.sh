@@ -18,7 +18,7 @@ pip3 install gunicorn
 
 pip3 install pytest pytest-cov flask-testing Werkzeug==0.16.1
 
-pytest --cov ./application --cov-report html
+python3 pytest --cov ./application --cov-report html
 
 source ~/.bashrc
 
