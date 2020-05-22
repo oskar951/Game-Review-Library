@@ -18,6 +18,10 @@ cd  /var/lib/jenkins/workspace/game_freestyle
 
 pytest --cov ./application --cov-report html
 
+mv ./htmlcov/index.html ./test_results/test-at-$(date "+%h-%m")-on-$(date "+%y-%H:%M").html
+
+rm -rf htmlcov
+
 source ~/.bashrc
 
 gunicorn --workers=4 --bind=0.0.0.0:5000 application:app
