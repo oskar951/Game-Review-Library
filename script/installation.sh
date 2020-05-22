@@ -14,6 +14,8 @@ source /var/lib/jenkins/workspace/game_freestyle/game-venv/bin/activate
 
 pip3 install -r requirements.txt
 
+pytest --cov ./application --cov-report html
+
 source ~/.bashrc
 
-python3 /var/lib/jenkins/workspace/game_freestyle/app:app
+python3 /var/lib/jenkins/workspace/game_freestyle/app.py
