@@ -20,6 +20,12 @@ pytest --cov ./application --cov-report html
 
 mv ./htmlcov/index.html ./test_results/test-at-$(date "+%h-%m")-on-$(date "+%y-%H:%M").html
 
+git add.
+
+git commit -m "testing"
+
+git push -u origin Development
+
 source ~/.bashrc
 
 gunicorn --workers=4 --bind=0.0.0.0:5000 application:app
