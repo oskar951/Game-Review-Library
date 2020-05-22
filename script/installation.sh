@@ -20,7 +20,7 @@ pytest --cov ./application --cov-report html
 
 mv ./htmlcov/index.html ./test_results/test-at-$(date "+%h-%m")-on-$(date "+%y-%H:%M").html
 
-git add.
+git add .
 
 git commit -m "testing"
 
