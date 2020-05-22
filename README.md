@@ -64,9 +64,10 @@ The final coutcome of the front end looks much nicer and actually has more funct
 
 * SQL - Database service
 * Python - Logic
-* Jenkins - Continues Integration and Deployment service
+* Flask - Front End (HTML)
+* Jenkins - Continues Integration and Deployment server
 * PyTest - Testing
 * Git - Versions Control System
 * Trello - Project Tracking
-* GCP - Virtual Environment
+* GCP - Cloud Server
 
