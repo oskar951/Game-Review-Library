@@ -14,9 +14,7 @@ source /var/lib/jenkins/workspace/game_freestyle/game-venv/bin/activate
 
 pip3 install -r /var/lib/jenkins/workspace/game_freestyle/requirements.txt
 
-sudo apt install gunicorn
-
-pytest --cov ./application --cov-report html
+cd  /var/lib/jenkins/workspace/game_freestyle
 
 source ~/.bashrc
 
