@@ -10,9 +10,9 @@ sudo apt install python3-venv -y
 
 python3 -m venv game-venv
 
-. game-venv/bin/activate
+source /var/lib/jenkins/workspace/game_freestyle/game-venv/bin/activate
 
-pip3 install -r requirements.txt
+pip3 install -r /var/lib/jenkins/workspace/game_freestyle/requirements.txt
 
 pytest --cov ./application --cov-report html
 
