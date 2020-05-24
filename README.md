@@ -51,8 +51,11 @@ I then reviewed my risks towards the end of the project to see which control mea
 
 ## Testing
 
-
 In my inital testing to see the response code for my pages(home, about, addgames, games, review) to see if those pages are shown to the user. All the tests passed with a total coverage of 55%
+
+My final test coverage is at 86% with some website routes still needing testing.
+
+![Test coverage1](https://github.com/oskar951/Game-Review-Library/blob/master/Images/CoverageReport1.jpg)
 
 ## Front End Design/Result
 
