@@ -76,6 +76,10 @@ The final coutcome of the front end looks much nicer and actually has more funct
 
 ## Workflow and Tools Used
 
+Here is a workflow for creating the app:
+
+![WorkFlow](https://github.com/oskar951/Game-Review-Library/blob/master/Images/WorkFlow.jpg)
+
 * SQL - Database service
 * Python - Logic
 * Flask - Front End (HTML)
