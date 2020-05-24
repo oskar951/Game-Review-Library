@@ -10,6 +10,7 @@ The fundemental project for QA consulting.
 5. [Testing](#Testing)
 6. [Front End Design/Result](#Front-End-Design/Result)
 7. [Workflow and Tools](#Workflow-and-Tools-Used)
+8. [Future Improvements](#Improvements-to-Make-in-the-Future)
 
 
 
