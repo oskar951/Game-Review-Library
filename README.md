@@ -43,6 +43,11 @@ Here is my continuous integration and deployment pipeline showcasing the process
 
 ## Risk Assessment
 
+In my risk assessment I have listed possible risks of the software and risks I may run into within the project itself. I added the risks cause and effect as well as the likelihood of it happening, this is then followed by a control measure which can help negate the risk and give it a lower likelihood and consequence. 
+
+I then reviewed my risks towards the end of the project to see which control measures are implemented and whether I avoided those risks or not.
+
+![Risk Assessment](https://github.com/oskar951/Game-Review-Library/blob/master/Images/RiskAssessment.jpg)
 
 ## Testing
 
