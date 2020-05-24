@@ -37,7 +37,7 @@ My delivered ERD has only the Games and Reviews tables, this time with more rows
 [Back to top](#Index)
 
 ### CI Pipeline
-Here is my continuous integration pipeline showcasing the process my project takes from the testing and source code being used, then pushed to the github version control system. This is updated in my project tracking Trello board and Jenkins the CI server is looking for changes in github and pulling the code to then automatically build it and deploy to the live environment.
+Here is my continuous integration and deployment pipeline showcasing the process my project takes from the testing and source code being used, then pushed to the github version control system. This is updated in my project tracking Trello board and Jenkins the CI server is looking for changes in github and pulling the code to then automatically build it and deploy to the live environment.
 
 ![CI Pipeline](https://github.com/oskar951/Game-Review-Library/blob/master/Images/CIpipeline2.jpg)
 
@@ -75,4 +75,6 @@ The final coutcome of the front end looks much nicer and actually has more funct
 * Git - Versions Control System
 * Trello - Project Tracking
 * GCP - Cloud Server
+
+## Improvements to Make in the Future
 
