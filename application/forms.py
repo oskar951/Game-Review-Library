@@ -54,11 +54,7 @@ class ReviewForm(FlaskForm):
             raise ValidationError('Rating must be between 1 - 10')
 
 
-    def validate_game_exists(self,game_title):
-        game = Games.query.filter_by(game_title=game_title.data).first()
-
-        if not game:
-            raise ValidationError('Game must exist in Games library')
+    
 
 
 
