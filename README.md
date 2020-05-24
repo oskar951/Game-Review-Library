@@ -53,7 +53,7 @@ I then reviewed my risks towards the end of the project to see which control mea
 
 In my inital testing to see the response code for my pages(home, about, addgames, games, review) to see if those pages are shown to the user. All the tests passed with a total coverage of 55%
 
-My final test coverage is at 86% with some website routes still needing testing.
+My final test coverage is at 86% with some website routes still needing testing. Tests have been made which add data to database and return the page with that data to show integration of databases.
 
 ![Test coverage1](https://github.com/oskar951/Game-Review-Library/blob/master/Images/CoverageReport1.jpg)
 
@@ -86,3 +86,14 @@ The final coutcome of the front end looks much nicer and actually has more funct
 
 ## Improvements to Make in the Future
 
+To further build on the project I would like to implement validation when writing a review for a game that doesnt exist so that the user is notified to create a review with a game from the database. 
+
+I would also like to implement users and logins so that reviews may be linked to accounts and even have a sort of social network between eachother for forums and discussions. This would also include user profiles and the reviews that they have made.
+
+A great addition would be to have a page for upcoming game releases which could show what games people are most excited for so others can look forward to them.
+
+Some functionality for the project I have included in my project tracking using MoSCoW showing which things I could have and things I definitely wont have by the end of the project, these are what I decided could be improvements for next time.
+
+
+
+**Written and Produced by** - *Oskaras Ceremnovas*
