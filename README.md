@@ -54,9 +54,12 @@ I then reviewed my risks towards the end of the project to see which control mea
 
 In my inital testing to see the response code for my pages(home, about, addgames, games, review) to see if those pages are shown to the user. All the tests passed with a total coverage of 55%
 
-My final test coverage is at 86% with some website routes still needing testing. Tests have been made which add data to database and return the page with that data to show integration of databases.
-
+Adding some more tests got me to 86% with more testing needed on forms and routes.
 ![Test coverage1](https://github.com/oskar951/Game-Review-Library/blob/master/Images/CoverageReport1.jpg)
+
+My final test coverage is at 89% with some website routes still needing testing. Tests have been made which add data to database and return the page with that data to show integration of databases.
+
+![Test coverage2](https://github.com/oskar951/Game-Review-Library/blob/master/Images/CoverageReport2.jpg)
 
 ## Front End Design/Result
 
