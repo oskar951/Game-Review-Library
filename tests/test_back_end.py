@@ -30,7 +30,7 @@ class TestBase(TestCase):
         db.create_all()
 
         game = Games(game_title = 'GTA V', description = 'Gangs', category = 'Action', age_rating = '18')
-        # save users to database
+        # save data to database
         db.session.add(game)
         db.session.commit()
         review = Reviews(first_name = 'oskar', last_name = 'ceremnovas', rating = '5', title = 'review', review = 'good')
@@ -93,6 +93,31 @@ class TestModels(TestBase):
         )
         self.assertIn(b'18 years is the max age rating', response.data)
 
+
+    
+
+
+    def test_review_validation(self):
+        response=self.client.post(
+            '/review',
+            data=dict(
+            first_name = 'oskar', 
+            last_name = 'ceremnovas', 
+            rating = '11', 
+            title = 'review', 
+            review = 'good'
+
+
+
+            ),
+            follow_redirects=True
+        )
+        self.assertIn(b'Rating must be between 1 - 10', response.data)
+
+
+
+
+
     def test_repr(self):
          game = Games(game_title = 'GTA V', description = 'Gangs', category = 'Action', age_rating = '18')
          print(repr(game))
@@ -121,6 +146,8 @@ class TestPosts(TestBase):
         with self.client:
             response=self.client.get(url_for('game',game_id=1))
             self.assertEqual(response.status_code,200)
+
+            
         
         with self.client:
             response=self.client.get(url_for('update_game', game_id=1))
@@ -136,6 +163,23 @@ class TestPosts(TestBase):
                 follow_redirects=True
             )
             self.assertIn(b'1', response.data)
+
+
+
+        with self.client:
+            response=self.client.get(url_for('update_game', game_id=1))
+            self.assertEqual(response.status_code,200)
+            response=self.client.post(
+                '/game/1/update',
+                data=dict(
+                game_title = 'GTA V', 
+                description = 'Criminals', 
+                category = 'Action', 
+                age_rating = '19'
+                ),
+                follow_redirects=True
+            )
+            self.assertIn(b'18 years is the max age rating', response.data)
         
         with self.client:
             response=self.client.post(
@@ -154,6 +198,9 @@ class TestPosts(TestBase):
         with self.client:
             response=self.client.get(url_for('reviews', review_id=1))
             self.assertEqual(response.status_code,200)
+
+
+        
         
         with self.client:
             response=self.client.get(url_for('update_review', review_id=1))
@@ -170,6 +217,8 @@ class TestPosts(TestBase):
                 follow_redirects=True
             )
             self.assertIn(b'1', response.data)
+
+            
         
         with self.client:
             response=self.client.get(url_for('delete_review', review_id=1))
