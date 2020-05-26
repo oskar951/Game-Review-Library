@@ -102,6 +102,14 @@ A great addition would be to have a page for upcoming game releases which could 
 
 Some functionality for the project I have included in my project tracking using MoSCoW showing which things I could have and things I definitely wont have by the end of the project, these are what I decided could be improvements for next time.
 
+## Acknowledgements
+
+Thanks to the Trainers for the knowledge used to build and document this project.
+
+Also thanks to my cohort for all learning togetehr and being a great group.
 
 
-**Written and Produced by** - *Oskaras Ceremnovas*
+**Written and Produced by** - *Oskaras Ceremnovas* 
+
+##### Copyright
+2020 QA Academy Training - All rights reserved
