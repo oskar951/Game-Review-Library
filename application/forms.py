@@ -54,10 +54,7 @@ class ReviewForm(FlaskForm):
             raise ValidationError('Rating must be between 1 - 10')
 
 
-    def game_id_null(self, game_title):
-        
-        if game_title.data != game:
-            raise ValidationError('Game doesnt exist')
+    
 
 
 
