@@ -46,29 +46,29 @@ class TestBase(TestCase):
         db.drop_all()
 
 
-class TestViews(TestBase):
-    def test_home_view(self):
+class TestResponse(TestBase):
+    def test_home_res(self):
         response=self.client.get(url_for('home'))
 
         self.assertEqual(response.status_code,200)
 
 
-    def test_about_view(self):
+    def test_about_res(self):
         response=self.client.get(url_for('about'))
 
         self.assertEqual(response.status_code,200)
 
-    def test_addgame_view(self):
+    def test_addgame_res(self):
         response=self.client.get(url_for('addgame'))
 
         self.assertEqual(response.status_code,200)
     
-    def test_games_view(self):
+    def test_games_res(self):
         response=self.client.get(url_for('games'))
 
         self.assertEqual(response.status_code,200)
 
-    def test_reviews_view(self):
+    def test_reviews_res(self):
         response=self.client.get(url_for('review'))
 
         self.assertEqual(response.status_code,200)
