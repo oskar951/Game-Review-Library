@@ -106,7 +106,7 @@ Some functionality for the project I have included in my project tracking using 
 
 Thanks to the Trainers for the knowledge used to build and document this project.
 
-Also thanks to my cohort for all learning togetehr and being a great group.
+Also thanks to my cohort for all learning together and being a great group.
 
 
 **Written and Produced by** - *Oskaras Ceremnovas* 
