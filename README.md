@@ -42,6 +42,13 @@ Here is my continuous integration and deployment pipeline showcasing the process
 
 ![CI Pipeline](https://github.com/oskar951/Game-Review-Library/blob/master/Images/CIpipeline2.jpg)
 
+### Trello Project Tracking
+
+Using Trello, I tracked my project along the way with a Kanban style board which allowed me to see my progress and things that need to be done. I added a colour code for MoSCoW so that the must have content is green, this way you can see all the green must have items have progressed to the 'Done' column. I also have some Bugs and one of the bugs has fix in the card description which helped me get over the bug. User stories and a Use case were also included here.
+
+
+![Trello Board](https://github.com/oskar951/Game-Review-Library/blob/master/Images/TrelloBoard.jpg)
+
 ## Risk Assessment
 
 In my risk assessment I have listed possible risks of the software and risks I may run into within the project itself. I added the risks cause and effect as well as the likelihood of it happening, this is then followed by a control measure which can help negate the risk and give it a lower likelihood and consequence. 
@@ -94,6 +101,8 @@ Here is a workflow for creating the app:
 
 ## Improvements to Make in the Future
 
+Fulle testing coverage is something I would like to improve on for next time.
+
 To further build on the project I would like to implement validation when writing a review for a game that doesnt exist so that the user is notified to create a review with a game from the database. 
 
 I would also like to implement users and logins so that reviews may be linked to accounts and even have a sort of social network between eachother for forums and discussions. This would also include user profiles and the reviews that they have made.
@@ -111,5 +120,5 @@ Also thanks to my cohort for all learning together and being a great group.
 
 **Written and Produced by** - *Oskaras Ceremnovas* 
 
-##### Copyright
+##### Copyright (c)
 *2020 QA Academy Training - All rights reserved*
