@@ -44,7 +44,7 @@ Here is my continuous integration and deployment pipeline showcasing the process
 
 ### Trello Project Tracking
 
-Using Trello, I tracked my project along the way with a Kanban style board which allowed me to see my progress and things that need to be done. I added a colour code for MoSCoW so that the must have content is green, this way you can see all the green must have items have progressed to the 'Done' column. I also have some Bugs and one of the bugs has fix in the card description which helped me get over the bug. User stories and a Use case were also included here.
+Using Trello, I tracked my project along the way with a Kanban style board which allowed me to see my progress and things that need to be done. I added a colour code for MoSCoW so that the must have content is green, this way you can see all the green must have items have progressed to the 'Done' column. I also have some Bugs and one of them has a fix in the card description which helped me get over the problem. User stories and a Use case were also included here.
 
 
 ![Trello Board](https://github.com/oskar951/Game-Review-Library/blob/master/Images/TrelloBoard.jpg)
