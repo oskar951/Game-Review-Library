@@ -112,4 +112,4 @@ Also thanks to my cohort for all learning togetehr and being a great group.
 **Written and Produced by** - *Oskaras Ceremnovas* 
 
 ##### Copyright
-2020 QA Academy Training - All rights reserved
+*2020 QA Academy Training - All rights reserved*
