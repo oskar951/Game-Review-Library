@@ -30,6 +30,7 @@ services:
       target: /etc/nginx/nginx.conf
 
   environment:
-    MYSQL_DATABASE: ${MYSQL_DATABASE}
+    DATABASE_URI: ${DATABASE_URI}
+    SECRET_KEY: ${SECRET_KEY}
 volumes:
   mysql:

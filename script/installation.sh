@@ -1,24 +1,15 @@
 #!/usr/bin/env bash
 
-sudo apt update -y
 
-sudo apt install python3 -y
+sudo cp etc/systemd/system/flask.service /etc/systemd/system
 
-sudo apt install python3-pip -y
+sudo systemctl daemon-reload
 
-sudo apt install python3-venv -y
+sudo systemctl enable flask.service
 
-python3 -m venv game-venv
+source game-venv/bin/activate
 
-source /var/lib/jenkins/workspace/game_freestyle/game-venv/bin/activate
+sudo systemctl start flask.service
 
-pip3 install -r /var/lib/jenkins/workspace/game_freestyle/requirements.txt
+pip3 install -r /var/lib/jenkins/workspace/game_pipeline/requirements.txt
 
-cd  /var/lib/jenkins/workspace/game_freestyle
-
-pytest --cov ./application --cov-report html
-
-
-source ~/.bashrc
-
-gunicorn --workers=4 --bind=0.0.0.0:5000 application:app
