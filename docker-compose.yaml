@@ -7,6 +7,10 @@ services:
     - target: 5000
       published: 5000
       protocol: tcp
+
+    environment:
+      DATABASE_URI: ${DATABASE_URI}
+      SECRET_KEY: ${SECRET_KEY}
   mysql:
     image: mysql:latest
     ports:
@@ -29,8 +33,5 @@ services:
       source: ./nginx/nginx.conf
       target: /etc/nginx/nginx.conf
 
-  environment:
-    DATABASE_URI: ${DATABASE_URI}
-    SECRET_KEY: ${SECRET_KEY}
 volumes:
   mysql:
