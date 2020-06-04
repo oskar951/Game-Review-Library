@@ -17,8 +17,8 @@ pipeline{
 
             stage('export database variables'){
                 steps{
-                    sh 'export DATABASE_URI="mysql+pymysql://${MYSQL_USER}:${MYSQL_PASSWORD}@${MYSQL_HOST}/${MYSQL_DATABASE}"'
-                    sh 'export SECRET_KEY=${SECRET_KEY}'
+                    sh './script/exportvariables.sh'
+                    
                 }
             }
 
