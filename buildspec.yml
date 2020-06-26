@@ -13,7 +13,12 @@ phases:
     build:
         commands: 
             - echo Entered the build phase ...
-            - mvn clean install
+            - sudo cp etc/systemd/system/flask.service /etc/systemd/system
+            - sudo systemctl daemon-reload
+            - sudo systemctl enable flask.service
+            - source game-venv/bin/activate
+            - sudo systemctl start flask.service
+            - pip3 install -r ./requirements.txt
 artifacts:
     files:
         - */<APP_NAME>-0.0.1-SNAPSHOT.jar
