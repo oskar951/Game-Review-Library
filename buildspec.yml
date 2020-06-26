@@ -6,13 +6,12 @@ phases:
             python: Python 3.8
         commands: 
             - echo Entered the install phase ...
-            - sudo apt install python3
-            - sudo apt install pip3
-            
+            - sudo apt install python3 python3-pip -y
+         
     build:
         commands: 
             - echo Entered the build phase ...
             - mvn clean install
 artifacts:
     files:
-        - target/<APP_NAME>-0.0.1-SNAPSHOT.jar
+        - */<APP_NAME>-0.0.1-SNAPSHOT.jar
